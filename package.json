@@ -1,35 +1,47 @@
 {
-	"name": "xstate-designer",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test --env=jsdom",
-		"eject": "react-scripts eject",
-		"predeploy": "npm run build && rm build/static/js/*.map",
-		"deploy": "gh-pages -d build"
-	},
-	"dependencies": {
-		"@ant-design/icons": "^5.5.1",
-		"@antv/g6": "^5.0.28",
-		"@antv/g6-editor": "^1.2.0",
-		"@avaragado/xstateful": "^0.5.0",
-		"@types/styled-components": "^5.1.34",
-		"antd": "^5.21.6",
-		"lodash": "^4.17.21",
-		"react": "^18.3.1",
-		"react-dom": "^18.3.1",
-		"react-scripts": "^5.0.1",
-		"styled-components": "^6.1.13"
-	},
-	"devDependencies": {
-		"@types/jest": "^29.5.14",
-		"@types/lodash": "^4.17.13",
-		"@types/node": "^22.9.0",
-		"@types/react": "^18.3.12",
-		"@types/react-dom": "^18.3.1",
-		"gh-pages": "^6.2.0",
-		"typescript": "^4.9.5"
-	}
+  "name": "xstate-designer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build && rm build/static/js/*.map",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.5.1",
+    "@antv/g6": "^5.0.28",
+    "@antv/g6-editor": "^1.2.0",
+    "@avaragado/xstateful": "^0.5.0",
+    "@types/styled-components": "^5.1.34",
+    "antd": "^5.21.6",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^6.1.13"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/lodash": "^4.17.13",
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "gh-pages": "^6.2.0",
+    "typescript": "^4.9.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

@@ -31,9 +31,9 @@ interface IProps {
 export const Layout: React.FC<IProps> = ({ children, mode, onSelectMode }) => {
 	const [collapsed, setCollapsed] = useState<boolean>(false)
 
-	const toggle = () => {
-		setCollapsed(!collapsed)
-	}
+	// const toggle = () => {
+	// 	setCollapsed(!collapsed)
+	// }
 
 	const onSelect = ({ key }: { key: string }) => {
 		onSelectMode(key)
