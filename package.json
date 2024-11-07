@@ -11,6 +11,7 @@
 		"deploy": "gh-pages -d build"
 	},
 	"dependencies": {
+		"@ant-design/icons": "^5.5.1",
 		"@antv/g6": "^5.0.28",
 		"@antv/g6-editor": "^1.2.0",
 		"@avaragado/xstateful": "^0.5.0",
