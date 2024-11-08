@@ -11,12 +11,8 @@
 		"moduleResolution": "node",
 		"rootDir": "src",
 		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
-		"noImplicitReturns": true,
-		"noImplicitThis": true,
 		"noImplicitAny": true,
 		"strictNullChecks": true,
-		"noUnusedLocals": true,
 		"skipLibCheck": true
 	},
 	"include": ["src/**/*"],

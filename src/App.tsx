@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { notification } from 'antd'
 import { HeartFilled } from '@ant-design/icons'
 import Editor from 'containers/Editor'
-import StateNavigator from 'containers/StateNavigator'
+import { StateNavigator } from 'containers/StateNavigator'
 import { Layout } from './Layout'
 
 export default function App() {
